@@ -1,0 +1,7 @@
+@import 'theme/MediaQueries';
+
+@media #{$desktopWide} {
+    $scaleFactor: .055;
+
+    @import '../desktop';
+}

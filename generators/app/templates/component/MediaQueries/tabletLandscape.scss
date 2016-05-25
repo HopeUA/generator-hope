@@ -1,0 +1,7 @@
+@import 'theme/MediaQueries';
+
+@media #{$tabletLandscape} {
+    $scaleFactor: .04882826;
+
+    @import '../mobile';
+}

@@ -1,0 +1,7 @@
+@import 'theme/MediaQueries';
+
+@media #{$desktop} {
+    $scaleFactor: .04882826;
+
+    @import '../desktop';
+}
