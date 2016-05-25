@@ -42,7 +42,10 @@
       "mocha": true
     }
   },
-  "repository": "/generator-hope",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/HopeUA/generator-hope.git"
+  },
   "scripts": {
     "prepublish": "gulp prepublish",
     "test": "gulp"
