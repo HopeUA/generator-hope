@@ -43,9 +43,13 @@ module.exports = yeoman.Base.extend({
             this.templatePath('component/MediaQueries'),
             this.destinationPath(basePath + 'MediaQueries')
         );
-        this.fs.copy(
+        this.fs.copyTpl(
             this.templatePath('component/*.scss'),
-            this.destinationPath(basePath)
+            this.destinationPath(basePath),
+            {
+                namespace: namespace,
+                component: component
+            }
         );
         this.fs.copyTpl(
             this.templatePath('component/main.scss'),
