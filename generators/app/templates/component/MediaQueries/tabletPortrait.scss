@@ -1,7 +1,1 @@
-@import 'theme/MediaQueries';
-
-@media #{$tabletPortrait} {
-    $scaleFactor: .065106;
-
-    @import '../mobile';
-}
+@import '../mobile';

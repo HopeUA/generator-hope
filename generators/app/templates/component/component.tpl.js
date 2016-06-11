@@ -12,13 +12,11 @@ export default function <%= componentTitle %>() {
         BreakPoints.desktop.name
     ];
 
-    render() {
-        return (
-            <PixelPerfect templates={ templates } component="<%= component %>">
-                <section className={ Styles.<%= component %>Component }>
-                    <%= componentTitle %> Component
-                </section>
-            </PixelPerfect>
-        );
-    }
+    return (
+        <PixelPerfect templates={ templates } component="<%= component %>">
+            <section className={ Styles.<%= component %>Component }>
+                <%= componentTitle %> Component
+            </section>
+        </PixelPerfect>
+    );
 }

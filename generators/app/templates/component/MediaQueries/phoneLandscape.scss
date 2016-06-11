@@ -1,9 +1,1 @@
-@import 'theme/MediaQueries';
-
-@media #{$phoneLandscape} {
-    $scaleFactor: .08803;
-
-    @import '../mobile';
-
-
-}
+@import '../mobile';
